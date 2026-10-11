@@ -66,6 +66,7 @@ seaborn
 ```bash
 # 1. Clone this repo
 git clone https://github.com/unexpectedlyzero/sign-translator
+cd sign-translator
 
 # 2. Create a virtual environment using Python 3.9–3.12 (3.11 recommended)
 py -3.11 -m venv venv311
