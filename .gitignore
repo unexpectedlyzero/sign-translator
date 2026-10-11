@@ -1,0 +1,30 @@
+# Virtual environment
+venv311/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log file training
+train_log*.txt
+
+# (opsional) kalau model-nya mau di-track pakai Git LFS alih-alih commit biasa,
+# uncomment baris di bawah ini setelah setup `git lfs track "*.pkl"`
+# sign_language_model.pkl
